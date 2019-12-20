@@ -2,7 +2,7 @@
 This is my repository for Data Structures using Python.<br>
 This repository mainly aims at implementation of various Data Structures using Python.
 
-AKHILESH SANTOSHWAR,<br />
+AKHILESH SANTOSHWAR<br />
 Nagpur, Maharashtra, India.<br />
 
 # Arrays
