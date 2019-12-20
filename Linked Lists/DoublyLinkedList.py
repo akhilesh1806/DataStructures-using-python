@@ -78,3 +78,7 @@ if __name__ == '__main__':
     dll.delete(2)
     print()
     dll.printdll()
+    
+    
+            # Output:
+            # 4 2 1 3 
