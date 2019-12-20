@@ -1,27 +1,28 @@
 # Author: AKHILESH SANTOSHWAR
 
-import Stack
-
-def parseParenthesis(string):
-    balanced = 1
-    index = 0
-    myStack = Stack.Stack(len(string))
-    while (index < len(string)) and (balanced == 1):
-        check = string[index]
-        if check == '(':
-            myStack.push(check)
-        else:
-            if myStack.isEmpty():
-                balanced = 0
-            else:
-                myStack.pop()
-        index += 1
-
-    if balanced == 1 and myStack.isEmpty():
-        return True
-    else:
-        return False
-
-if __name__ == '__main__':
-    print(parseParenthesis('((()))'))
-    print(parseParenthesis('((())'))
+# balanced parentheses in an expression 
+open_list = ["[","{","("] 
+close_list = ["]","}",")"] 
+  
+# Function to check parentheses 
+def check(myStr): 
+    stack = [] 
+    for i in myStr: 
+        if i in open_list: 
+            stack.append(i) 
+        elif i in close_list: 
+            pos = close_list.index(i) 
+            if ((len(stack) > 0) and
+                (open_list[pos] == stack[len(stack)-1])): 
+                stack.pop() 
+            else: 
+                return "Unbalanced"
+    if len(stack) == 0: 
+        return "Balanced"
+  
+# Driver code 
+string = "{[]{()}}"
+print(string,"-", check(string)) 
+  
+string = "[{}{})(]"
+print(string,"-", check(string)) 
