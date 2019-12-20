@@ -7,7 +7,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Arrays
 
-* [Arrays Concept](https://github.com/akhilesh1806/Data-Structures-using-Python/blob/master/Arrays/Arrays.ipynb)
+* [Arrays Concept](https://github.com/akhilesh1806/DataStructures-using-python/blob/master/Arrays/Arrays.ipynb)
     * [Array implementation](Arrays/Arrays.py)
     * [Reversing an Array](Arrays/P01_ReversingArray.py)
     * [Array Rotation](Arrays/P02_ArrayRotation.py)
