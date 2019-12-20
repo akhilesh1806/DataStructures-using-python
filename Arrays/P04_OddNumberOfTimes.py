@@ -19,4 +19,7 @@ def printOddOccurences(array):
 
 if __name__ == '__main__':
     myArray = [3, 4, 1, 2, 4, 1, 2, 5, 6, 4, 6, 5, 3]
-    print(printOddOccurences(myArray))      # 4
+    print(printOddOccurences(myArray))      
+    
+        #output
+        # 4
