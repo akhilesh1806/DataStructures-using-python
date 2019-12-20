@@ -39,3 +39,6 @@ if __name__ == '__main__':
         print('Array has elements:', number1, 'and', number2, 'with sum:', sum)
     else:
         print('Array doesn\'t have elements with the sum:', sum)
+        
+            # Output:
+            # Array has elements: 30 and 50 with sum: 80
