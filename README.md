@@ -17,7 +17,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Linked Lists
 
-* [Linked Lists Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Linked%20Lists/Linked%20Lists.ipynb)
+* [Linked Lists Concept](https://github.com/akhilesh1806/DataStructures-using-Python/blob/master/Linked%20Lists/Linked%20Lists.ipynb)
     * [Singly Linked List implementation](Linked%20Lists/SinglyLinkedList.py)
     * [Doubly Linked List implementation](Linked%20Lists/DoublyLinkedList.py)
     * [Finding the length of linked list](Linked%20Lists/P01_FindingLengthOfLinkedList.py)
@@ -25,8 +25,8 @@ Nagpur, Maharashtra, India.<br />
 
 # Stack
 
-* [Stack Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Stack/Stack.ipynb)
-    * [Stack implementation](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Stack/Stack.py)
+* [Stack Concept](https://github.com/akhilesh1806/DataStructures-using-Python/tree/master/Stack/Stack.ipynb)
+    * [Stack implementation](https://github.com/akhilesh1806/DataStructures-using-Python/tree/master/Stack/Stack.py)
     * [Infix to Postfix conversion](Stack/P01_InfixToPostfix.py)
     * [Balanced Parenthesis](Stack/P02_BalancedParenthesis.py)
     * [Decimal to Binary conversion using Stack](Stack/P03_DecimalToBinary.py)
@@ -34,7 +34,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Queue
 
-* [Queue Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Queue/Queue.ipynb)
+* [Queue Concept](https://github.com/akhilesh1806/DataStructures-using-Python/tree/master/Queue/Queue.ipynb)
     * [Queue implementation](Queue/Queue.py)
     * [Circular Queue](Queue/CicularQueue.py)
     * [Double Ended Queue](Queue/Deque.py)
@@ -42,7 +42,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Tree
 
-* [Tree Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Trees/Tree.ipynb)
+* [Tree Concept](https://github.com/akhilesh1806/DataStructures-using-Python/blob/master/Trees/Tree.ipynb)
     * [Tree implementation](Trees/Tree.py)
     * [Binary Search Tree](Trees/BinarySearchTree.py)
     * [Breadth First Traversal](Trees/P01_BreadthFirstTraversal.py)
@@ -53,7 +53,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Graph
 
-* [Graph Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Graph/Graph.ipynb)
+* [Graph Concept](https://github.com/akhilesh1806/DataStructures-using-Python/tree/master/Graph/Graph.ipynb)
     * [Graph implementation](Graph/Graph.py)
     * [Breadth First Search Traversal](Graph/P01_BreadthFirstSearch.py)
     * [Depth First Search Traversal](Graph/P02_DepthFirstSearch.py)
@@ -64,7 +64,7 @@ Nagpur, Maharashtra, India.<br />
 
 # Heap
 
-* [Heap Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Heap/Heap.ipynb)
+* [Heap Concept](https://github.com/akhilesh1806/DataStructures-using-Python/blob/master/Heap/Heap.ipynb)
     * [Heap implementation (Min Heap)](Heap/Heap.py)
     * [Heap Sort](Heap/P01_HeapSort.py)
     * [Implementing a Max Heap](Heap/P02_MaxHeap.py)
