@@ -1,18 +1,15 @@
 # Author: AKHILESH SANTOSHWAR
 
-import Arrays
-
-def  reversingAnArray(start, end, myArray):
-    while(start < end):
-        myArray[start], myArray[end - 1] = myArray[end - 1], myArray[start]
+# Function to reverse A[] from start to end 
+def reverseList(A, start, end): 
+    while start < end: 
+        A[start], A[end] = A[end], A[start] 
         start += 1
         end -= 1
-
-if __name__ == '__main__':
-    myArray = Arrays.Array(10)
-    myArray.insert(2, 2)
-    myArray.insert(1, 3)
-    myArray.insert(3, 1)
-    print('Array before Reversing:',myArray)
-    reversingAnArray(0, len(myArray), myArray)
-    print('Array after Reversing:',myArray)
+  
+# Driver function to test above function 
+A = [1, 2, 3, 4, 5, 6] 
+print(A) 
+reverseList(A, 0, 5) 
+print("Reversed list is") 
+print(A) 
